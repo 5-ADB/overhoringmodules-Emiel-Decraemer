@@ -3,9 +3,8 @@ function Huisdier(dier, naam, leeftijd) {
     this.naam = naam,
     this.leeftijd = leeftijd,
     function print(this) {
-        `mijn ${this.dier} ${this.naam} is ${this.leeftijd} jaar oud`
+        return `mijn ${this.dier} ${this.naam} is ${this.leeftijd} jaar oud`
     }
-    
 }
 
 module.exports = (Huisdier)
