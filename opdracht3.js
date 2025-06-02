@@ -5,6 +5,6 @@ const dier = require("./huisdier");
 
 const woef = dier.Huisdier("hond", "woef", 3);
 
-console.log(woef);
+console.log(woef.print);
 // resutlaat
 // > mijn hond woef is 3 jaar oud
