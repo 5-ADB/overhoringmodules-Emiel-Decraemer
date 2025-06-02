@@ -2,7 +2,7 @@ function Huisdier(dier, naam, leeftijd) {
     this.dier = dier,
     this.naam = naam,
     this.leeftijd = leeftijd,
-    function print(this) {
+    function print() {
         return `mijn ${this.dier} ${this.naam} is ${this.leeftijd} jaar oud`
     }
 }
